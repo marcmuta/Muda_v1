@@ -4,11 +4,11 @@ import { Text , View} from 'react-native'
 
 
 // Make hrte Component
-const Header = () => {
+const Header = (props) => {
   const { textStyle, viewStyle } = styles;
   return (
     <View style={ viewStyle }>
-      <Text style={ textStyle }>Muda</Text>
+      <Text style={ textStyle }>{ props.headerText }</Text>
     </View>
   );
 }

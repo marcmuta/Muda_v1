@@ -5,7 +5,7 @@ import Header from './src/Components/header';
 export default class App extends Component {
   render() {
     return (
-      <Header />
+      <Header headerText={ 'Muda' } />
     );
   }
 }
